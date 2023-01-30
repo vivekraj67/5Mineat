@@ -1,0 +1,152 @@
+*{
+margin: 0px;
+padding: 0px;
+list-style: none;
+text-decoration: none;
+box-sizing: border-box;
+}
+/* body style */
+body{
+    background-color: rgb(187, 161, 161);
+}
+
+
+/* navbar  */
+nav img{
+    height: 75px;
+    width: 120px;
+
+}
+nav{
+    display: flex;
+    background-color: rgb(117, 108, 108);    
+}
+
+nav h1{
+    font-family: 'Poppins', sans-serif;
+    width: 70vw;
+    text-align: center;
+    margin: auto;
+    font-size: 36px;
+    color: rgb(200, 211, 169);
+}
+
+nav h2 a{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 28px;
+    color: rgb(200, 211, 169);
+    
+}
+nav h2 a:hover{
+    color: rgb(0, 0, 0);
+    
+}
+nav h2{
+    text-align: center;
+    margin: 12px;
+
+}
+
+/* section1  (location) */
+#section1 {
+    height: 100px;
+    background: rgb(133, 122, 122);
+
+}
+#section1 form{
+    
+    
+}
+#section1 form input{
+    width: 72vw;
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 17px;
+    margin-top: 23px;
+    margin-left: 100px;
+    outline: none;
+    box-sizing: border-box;
+    border: rgb(133, 122, 122);
+}
+
+/* items css */
+.item-heading{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0px;
+    background-color: rgb(100, 87, 105);
+    color: wheat;
+
+}
+.item-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+
+}
+.container{
+    margin: 10px;
+
+}
+.container:hover{
+    transform: scale(1.05);
+    transition: all 0.85s ease;
+
+}
+.container img{
+    height: 230px;
+    width: 230px;
+    border-radius: 6px;
+    margin-top: 9px;
+
+}
+.container h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: blanchedalmond;
+    margin: 8px;
+
+}
+.container input{
+    padding: 6px 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: rgb(207, 95, 95);
+    border-radius: 10px;
+    border: rgb(187, 161, 161);
+    outline: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-bottom: 8px;
+    font-weight: bold;
+
+}
+
+.container input:hover{
+    background-color: rgb(100, 87, 105);
+
+}
+
+
+
+
+
+
+
+
+
+
+/* footer  */
+footer{
+    background-color: rgb(166, 142, 173);
+}
+footer p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
+}

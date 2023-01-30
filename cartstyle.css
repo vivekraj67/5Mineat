@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    }
+    /* body style */
+    body{
+        background-color: rgb(187, 161, 161);
+    }
+    
+    
+    /* navbar  */
+    nav img{
+        height: 75px;
+        width: 120px;
+    
+    }
+    nav{
+        display: flex;
+        background-color: rgb(117, 108, 108);    
+    }
+    
+    nav h1{
+        font-family: 'Poppins', sans-serif;
+        width: 70vw;
+        text-align: center;
+        margin: auto;
+        font-size: 36px;
+        color: rgb(200, 211, 169);
+    }
+    
+    nav h2 a{
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-size: 28px;
+        color: rgb(200, 211, 169);
+        
+    }
+    nav h2 a:hover{
+        color: rgb(0, 0, 0);
+        
+    }
+    nav h2{
+        text-align: center;
+        margin: 12px;
+    
+    }
+
+    /* template1- no item in cart  */
+    #no-item img{
+        height: 480px;
+        width: 480px;
+        display: block;
+        margin: 0px auto;
+        margin-bottom: 15px;
+
+    }
+    #no-item h1{
+        text-align: center;
+        font-size: 35px;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-bottom: 14px;
+        color: rgb(131, 25, 163);
+
+    }
+    #no-item h3{
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-bottom: 16px;
+        color: rgb(138, 24, 173);
+    }
+    #no-item a{
+        text-align: center;
+        font-size: 28px;
+        font-weight: bold;
+        font-family: 'Josefin Sans', sans-serif;
+        display: block;
+        width: 185px;
+        margin: auto;
+        margin-bottom: 15px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* footer  */
+footer{
+    background-color: rgb(166, 142, 173);
+}
+footer p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
+}

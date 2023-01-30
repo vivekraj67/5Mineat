@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>items</title>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Poppins:wght@300&display=swap'); </style>
+    <link rel="stylesheet" href="itemstyle.css">
+</head>
+<body>
+    <nav>
+        <a href="/"><img src="/images/logo.png" alt="5 MinEat"></a>
+        <h1>Satisfy your Hunger Pangs</h1>
+        <h2><a href="login" onclick="mobilelogin()">Login</a></h2>
+        <h2><a href="/cart.html">Mycart</a></h2>
+    </nav>
+    <section class="section" id="section1">
+        <form action="app.js" method="post">
+            <input type="text" placeholder="Enter your address">
+        </form>
+    </section>
+
+    
+    <h1 class="item-heading">Beverages</h1>
+    <section class="item-section" id="beverages">
+        <div class="container">
+            <img src="/images/coldcoffee.jpg" alt="coldcoffee">
+            <h2 id="coldcoffee1">Cold Coffee</h2>
+            <input type="button" onclick="addcoldcoffee()" value="Add">
+
+        </div>
+        <div class="container">
+            <img src="/images/coffee1.jpg" alt="coffee">
+            <h2 id="coffee1">Coffee</h2>
+            <input type="button" onclick="addcoffee()" value="Add">
+
+        </div>
+        <div class="container">
+            <img src="/images/tea.jpg" alt="tea">
+            <h2 id="tea1">Tea</h2>
+            <input type="button" onclick="addtea()" value="Add">
+
+        </div>
+
+    </section>
+
+    <h1 class="item-heading">Noodles</h1>
+    <section class="item-section" id="Noodles">
+        <div class="container">
+            <img src="/images/maggie.jpg" alt="maggie">
+            <h2 id="maggie1">Maggie</h2>
+            <input type="button" onclick="addmaggie()" value="Add">
+
+        </div>
+        <div class="container">
+            <img src="/images/chowmein.jpg" alt="chowmein">
+            <h2 id="chowmein1">Chow mein</h2>
+            <input type="button" onclick="addchowmein()" value="Add">
+
+        </div>
+        <div class="container">
+            <img src="/images/pasta.jpg" alt="pasta">
+            <h2 id="pasta1">pasta</h2>
+            <input type="button" onclick="addpasta()" value="Add">
+
+        </div>
+
+    </section>
+
+    <h1 class="item-heading">Momos</h1>
+    <section class="item-section" id="momos">
+        <div class="container">
+            <img src="/images/momo1.jpg" alt="paneermomos">
+            <h2 id="paneermomos1">Paneer Momos</h2>
+            <input type="button" onclick="addpaneermomos()" value="Add">
+
+        </div>
+        <div class="container">
+            <img src="/images/momo2.jpg" alt="chickenmomos">
+            <h2 id="chickenmomos1">Chicken Momos</h2>
+            <input type="button" onclick="addchickenmomos()" value="Add">
+
+        </div>
+        <div class="container">
+            <img src="/images/momo3.jpg" alt="steamedmomos">
+            <h2 id="steamedmomos1">Steamed Momos</h2>
+            <input type="button" onclick="addsteamedmomos()" value="Add">
+
+        </div>
+
+    </section>
+
+    <h1 class="item-heading">Sweets</h1>
+    <section class="item-section" id="sweets">
+        <div class="container">
+            <img src="/images/kajukatli.jpg" alt="kajukatli">
+            <h2 id="kajukatli1">kaju Katli</h2>
+            <input type="button" onclick="addkajukatli()" value="Add">
+
+        </div>
+        <div class="container">
+            <img src="/images/rajbhog.jpg" alt="rajbhog">
+            <h2 id="rajbhog1">Rajbhog</h2>
+            <input type="button" onclick="addrajbhog()" value="Add">
+
+        </div>
+        <div class="container">
+            <img src="/images/kalajamun.jpg" alt="kalajamun">
+            <h2 id="kalajamun1">Kala jamun</h2>
+            <input type="button" onclick="addkalajamun()" value="Add">
+
+        </div>
+
+    </section>
+
+    <h1 class="item-heading">Sandwiches</h1>
+    <section class="item-section" id="Sandwiches">
+        <div class="container">
+            <img src="/images/eggsand.jpg" alt="eggsand">
+            <h2 id="eggsandwich1">Egg Sandwiches</h2>
+            <input type="button" onclick="addeggsandwich()" value="Add">
+
+        </div>
+        <div class="container">
+            <img src="/images/chickensand.jpg" alt="chickensand">
+            <h2 id="chickensandwich1">Chicken Sandwiches</h2>
+            <input type="button" onclick="addchickensandwich()" value="Add">
+
+        </div>
+        <div class="container">
+            <img src="/images/hamsand.jpg" alt="hamsand">
+            <h2 id="hamsandwich1">Ham Sandwiches</h2>
+            <input type="button" onclick="addhamsandwich()" value="Add">
+
+        </div>
+
+    </section>
+
+    
+
+    <footer>
+        <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. © 5Mineat™ Ltd. All rights reserved. </p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

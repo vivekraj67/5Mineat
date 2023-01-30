@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Poppins:wght@300&display=swap'); </style>
+    <link rel="stylesheet" href="cartstyle.css">
+</head>
+<body>
+    <nav>
+        <a href="/"><img src="/images/logo.png" alt="5 MinEat"></a>
+        <h1>Satisfy your Hunger Pangs</h1>
+        <h2><a href="login" onclick="mobilelogin()">Login</a></h2>
+        <h2><a href="/cart">Mycart</a></h2>
+    </nav>
+
+    <!-- when their is no item in the cart  -->
+    <section id="no-item">
+        <img src="/images/emptycart.webp" alt="cart is empty">
+        <h1>You don't have any item in your cart</h1>
+        <h3>Your favourite items are just a click away</h3>
+        <a href="/items">Start Shopping</a>
+
+    </section>
+
+    <!-- when their are item/items in cart -->
+    <!-- <section id="itempresent">
+        <h1>Items Ordered</h1>
+        <h3 >Cold Coffee</h3>
+        <input id="coldcoffee" type="button" onclick="deletecoldcoffee()" value="x">
+        <h3 id="coffee">Coffee</h3>
+        <input type="button" onclick="deletecoffee()" value="x">
+        <h3 id="tea">Tea</h3>
+        <input type="button" onclick="deletetea()" value="x">
+        <h3 id="maggie">Maggie</h3>
+        <input type="button" onclick="deletemaggie()" value="x">
+        <h3 id="chowmein">chow Mein</h3>
+        <input type="button" onclick="deletechowmein()" value="x">
+        <h3 id="pasta">Pasta</h3>
+        <input type="button" onclick="deletepasta()" value="x">
+        <h3 id="paneermomos">Paneer Momos</h3>
+        <input type="button" onclick="deletepaneermomos()" value="x">
+        <h3 id="chickenmomos">Chicken Momos</h3>
+        <input type="button" onclick="deletechickenmomos()" value="x">
+        <h3 id="steamedmomos">Steamed Momos</h3>
+        <input type="button" onclick="deletesteamedmomos()" value="x">
+        <h3 id="kajulatli">Kaju Katli</h3>
+        <input type="button" onclick="deletekajukatli()" value="x">
+        <h3 id="kalajamun">Kala Jamun</h3>
+        <input type="button" onclick="deletekalajamun()" value="x">
+        <h3 id="rajbhog">Rajbhog</h3>
+        <input type="button" onclick="deleterajbhog()" value="x">
+        <h3 id="eggsandwich">Egg Sandwich</h3>
+        <input type="button" onclick="deleteeggsandwich()" value="x">
+        <h3 id="chickensandwich">Chicken Sandwich</h3>
+        <input type="button" onclick="deletechickensandwich()" value="x">
+        <h3 id="hamsandwich">Ham Sandwich</h3>
+        <input type="button" onclick="deletehamsandwich()" value="x">
+        <input type="button" onclick="placeorder()" value="Place Your Order">
+
+
+        <h4>|Price of the items is based on the information provided on the Items page|</h4>
+
+    </section> -->
+
+
+
+    <footer>
+        <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. © 5Mineat™ Ltd. All rights reserved. </p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
